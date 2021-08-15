@@ -8,6 +8,8 @@ const useStyles = makeStyles((theme) => ({
 
     },
     container: {
+        minHeight: "800px",
+        backgroundColor: "red",
 
     }
 }));

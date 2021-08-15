@@ -8,12 +8,9 @@ const useStyles = makeStyles((theme) => ({
 
     },
     container: {
-        width: "100%",
-        backgroundColor: "#014034",
+        minHeight: "60px",
+        backgroundColor: "red"
     },
-    image: {
-        maxWidth: "100%",
-    }
 
 }));
 
