@@ -1,13 +1,19 @@
 import { Typography, Grid } from "@material-ui/core";
 import React from "react";
 import useStyles from "./HomeStyles";
+import image1 from "../../Image/1.jpg";
+import FittedImage from "react-fitted-image";
+import Desc from "../desc/Desc";
+import About from "../about/About";
 
 const Home = () => {
   const classes = useStyles();
   return (
     <>
       <Grid container item xs={12} xl={12} className={classes.container}>
-        HOME
+        <FittedImage fit="contain" src={image1} />
+        <Desc />
+        <About />
       </Grid>
     </>
   );

@@ -6,13 +6,7 @@ const Banner = () => {
   const classes = useStyles();
   return (
     <>
-      <img
-        src={
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_Lcb-lsxMuER2-yP2GoV_kOZm4-wyaVzfa3fAXTSUhO64FCaMoBLyuTA0B56TBA1O5c&usqp=CAU"
-        }
-        className={classes.image}
-      ></img>
-      <Typography>siema</Typography>
+      <Typography className={classes.banner}>Plants</Typography>
     </>
   );
 };

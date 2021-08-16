@@ -1,20 +1,22 @@
-import {
-    makeStyles
-} from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
+
+import WebFont from "webfontloader";
+
+WebFont.load({
+  google: {
+    families: ["Dancing Script:300,400,700", "cursive"],
+  },
+});
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        position: 'fixed',
-
-    },
-    container: {
-        width: "100%",
-        backgroundColor: "#014034",
-    },
-    image: {
-        maxWidth: "100%",
-    }
-
+  root: {
+    position: "fixed",
+  },
+  banner: {
+    fontSize: "42px",
+    fontFamily: "Dancing Script",
+    textAlign: "center",
+  },
 }));
 
 export default useStyles;

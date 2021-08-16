@@ -11,6 +11,11 @@ const useStyles = makeStyles((theme) => ({
         width: "100%",
         minHeight: "800px",
     },
+    back: {
+        maxWidth: "100%",
+        width: "auto",
+        height: "auto"
+    }
 
 }));
 
