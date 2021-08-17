@@ -8,9 +8,9 @@ const Desc = () => {
     <>
       <Grid container item xs={12} className={classes.container}></Grid>
       <Grid item xs={12}>
-        <Typography className={classes.welcome}>Witamy!</Typography>
+        <Typography className={classes.welcome}>Cześć!</Typography>
         <Typography className={classes.desc}>
-          Lorem ipsum dolor sit amet
+          Miło, ze jesteś :)
         </Typography>
       </Grid>
     </>

@@ -24,7 +24,7 @@ const NavBar = () => {
           <Item name={"Porady"} />
         </Grid>
         <Grid item xs={12} md={2} className={classes.item}>
-          <Item name={"Polecane"} />
+          <Item name={"Rafał Chuj"} />
         </Grid>
       </Grid>
     </div>

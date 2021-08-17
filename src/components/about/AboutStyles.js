@@ -30,6 +30,9 @@ const useStyles = makeStyles((theme) => ({
         fontSize: "24px",
         fontFamily: "Dancing Script",
 
+    }, 
+    image:{
+        backgroundColor:"#022601"
     }
 }));
 

@@ -6,7 +6,7 @@ const Banner = () => {
   const classes = useStyles();
   return (
     <>
-      <Typography className={classes.banner}>Plants</Typography>
+      <Typography className={classes.banner}>Syngonium.pl</Typography>
     </>
   );
 };

@@ -7,8 +7,8 @@ const About = () => {
   const classes = useStyles();
   return (
     <>
-      <Grid container item xs={12} className={classes.container}>
-        <Grid item xs={12} md={6}>
+      <Grid container item xs={12} >
+        <Grid item xs={12} md={6} className={classes.container}>
           <Typography className={classes.head}>O nas</Typography>
           <Typography className={classes.content}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a nulla
@@ -27,7 +27,7 @@ const About = () => {
             purus nisl, faucibus et dapibus ut, volutpat ac metus.
           </Typography>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} className={classes.image}>
           <FittedImage fit="contain" src={image2} />
         </Grid>
       </Grid>

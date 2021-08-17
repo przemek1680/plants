@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
   },
   banner: {
-    fontSize: "42px",
+    fontSize: "68px",
     fontFamily: "Dancing Script",
     textAlign: "center",
   },

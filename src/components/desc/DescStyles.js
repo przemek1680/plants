@@ -6,7 +6,7 @@ import WebFont from "webfontloader";
 
 WebFont.load({
     google: {
-        families: ["Dancing Script:300,400,700", "cursive"],
+        families: ["Barlow Condensed:300,400,700", "cursive"],
     },
 });
 
@@ -19,14 +19,14 @@ const useStyles = makeStyles((theme) => ({
     },
     welcome: {
         textAlign: "center",
-        marginTop: "175px",
-        fontFamily: "Dancing Script",
+        marginTop: "100px",
+        fontFamily: "Barlow Condensed",
         fontSize: "65px"
     },
     desc: {
-        marginBottom: "175px",
+        marginBottom: "100px",
         textAlign: "center",
-        fontFamily: "Dancing Script",
+        fontFamily: "Barlow Condensed",
         fontSize: "45px"
     }
 }));

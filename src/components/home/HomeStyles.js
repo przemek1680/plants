@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: "100%",
         width: "auto",
         height: "auto"
+    },
+    photo:{
+        
     }
 
 }));
